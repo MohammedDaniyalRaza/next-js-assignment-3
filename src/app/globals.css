@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  /* background-color: #081624; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0A1828;
+}
+nav{
+  height: 100px;
+  margin-top: 0;
+  /* background-color: black; */
+  width: 50vw;
+  text-align: start;
+  transition: 0.6s;
+}
+
+.ulClass{
+  /* background-color: white; */
+  margin-top: 1.5rem;
+  margin-left: 12rem;
+  font-size: 1.8rem;
+  padding: 25px;
+}
+
+hr{
+  width: 80vw;
+  margin-top: 1.5rem;
+}
+
+.liLink{
+  display: inline;
+  list-style: none;
+  padding: 20px;
+}
+
+.liContact{
+  list-style: none;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.liLink:hover{
+  /* text-decoration: underline; */
+  cursor: pointer;
+}
+
+
+.container1home{
+  /* background-color: black; */
+  /* text-align: center; */
+  width: 80vw;
+  margin-left: 14.5rem;
+  margin-top: 2rem;
+  color: #BFA181;
+}
+
+a{
+  /* color: #0A1828; */
+  color :#178582;
+  text-decoration: none;
+}
+
+.h1Home{ 
+  color: #BFA181;
+  font-weight: 100;
+}
+
+
+.pHome{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.h2Home{
+  margin-top: 2.5rem;
+  /* font-weight: 100; */
+}
+
+.h2Home1{
+  font-weight: 100;
+}
+
+.container2home{
+  margin-left: 14.5rem;
+  margin-top: 7rem;
+}
+
+.btn{
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  transition: 1s;
+}
+
+.btn:hover{
+  background-color: #bdbdbd;
+  outline: none;
+}
+
+footer{
+  color: #BFA181;
+  text-align: center;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:70px; 
+}
+
+.pFooter{
+  font-size: 1rem;
+}
+
+.btnAbout{
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  transition: 1s;
+}
+
+.aboutContainer{
+  margin-bottom: 22rem;
+}
+/* 
+.btnAbout{
+  margin-bottom: 8.3rem;
+} */
